@@ -182,7 +182,7 @@ def main():
         
         for y in range(maze.height):
             for x in range(maze.width):
-                if (y==-1 and x==0) or(y==0 and x==1) :
+                if (y==1 and x==0 and maze.grid[y][x]==0) or(y==0 and x==1 and maze.grid[y][x]==0) :
                         maze.grid[y][x]=2 
                 if maze.grid[y][x] == 1: color = WHITE 
                 else: 
