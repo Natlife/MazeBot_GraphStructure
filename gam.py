@@ -7,7 +7,7 @@ from collections import deque
 pygame.init()
 
 # Kích thước màn hình
-WIDTH, HEIGHT = 600, 600
+WIDTH, HEIGHT = 700,700
 GRID_SIZE = 20
 CELL_SIZE = WIDTH // GRID_SIZE
 
@@ -174,7 +174,8 @@ def main():
         # Kiểm tra xem bot đã đến đích chưa
         if bot.x == goal.x and bot.y == goal.y:
             print("done")
-            exit(0)
+            return
+            #exit(0)
 
         screen.fill(BLACK)
         maze.draw(screen)
