@@ -8,7 +8,7 @@ pygame.init()
 
 # Kích thước màn hình
 WIDTH, HEIGHT = 600,600
-GRID_SIZE = 60
+GRID_SIZE = 70
 CELL_SIZE = WIDTH // GRID_SIZE
 
 # Màu sắc
