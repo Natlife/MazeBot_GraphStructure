@@ -5,25 +5,29 @@ The game will scan the maze map using BFS in order to find the shortest way and 
 bot use it to find the way to go
 
 
-## 🚀 Installation
+# 🚀Installation
 
 ```
+
 git clone https://github.com/Natlife/App-LetType
 cd App-LetType
+
 ```
 
 #Run the gam python file:
 
 ```
+
 pip install -r requirements.txt
 python gam.py
+
 ```
 
-![Screenshot](https://github.com/Natlife/MazeBot_GraphStructure/demo.png)
+![Screenshot](https://github.com/Natlife/MazeBot_GraphStructure/blob/master/demo.png)
 
 
+## 📬 Contact
 
-By: Ngo Duc Luong - Nat
-Github: https://github.com/Natlife
-Email: ndluong1903@gmail.com
+- 📧 Email: ndluong1903@gmail.com 
+- 💼 GitHub: [Natlife](https://github.com/Natlife)
 
